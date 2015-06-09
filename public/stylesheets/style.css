@@ -1,0 +1,237 @@
+body{
+	/*background-color: #F5F5F5;*/
+}
+
+.container {
+	margin: 40px !important;
+	padding: 0 !important;
+	width: auto !important;
+}
+
+a:focus, a:hover{
+	color: #2196F3;
+}
+
+.catalogTitle{
+	float: left;
+	width: 100%;
+	margin-bottom: 100px;
+}
+.catalogTitlePic,
+.catalogTitleText{
+	width: 40%;
+	float: left;
+}
+.catalogTitleText{
+	float: right;
+	text-align: right;
+	margin-top: 0;
+}
+.catalogSection>div{
+	float: left;
+	width: 50%;
+}
+.catalogList{
+	margin-bottom: 60px;
+	float: left;
+  	width: 90%;
+}
+.catalogListTitle{
+	width: 100%;
+	font-size: 28px;
+	border-bottom: 14px solid #000000;
+	padding-bottom: 8px;
+	margin-bottom: 14px;
+}
+.shimutekan>.catalogListTitle{
+	border-bottom-color: #8D6E63; 
+}
+.jingpintuijian>.catalogListTitle{
+	border-bottom-color: #BDBDBD;
+}
+.meishitekan>.catalogListTitle{
+	border-bottom-color: #F57C00;
+}
+.ruanchuangchuangdian>.catalogListTitle{
+	border-bottom-color: #E91E63;
+}
+.shafa>.catalogListTitle{
+	border-bottom-color: #64B5F6;
+}
+.banmujiaju>.catalogListTitle{
+	border-bottom-color: #607D8B;
+}
+.ertongqingshaonian>.catalogListTitle{
+	border-bottom-color: #8BC34A;
+}
+.hongmujiaju>.catalogListTitle{
+	border-bottom-color: #8D6E63;
+}
+.huangyexinxi>.catalogListTitle{
+	border-bottom-color: #FFF176;
+}
+.shimujiaju>.catalogListTitle{
+	border-bottom-color: #795548;
+}
+.xinmeishi>.catalogListTitle{
+	border-bottom-color: #01579B;
+}
+.gudianoumei>.catalogListTitle{
+	border-bottom-color: #6D4C41;
+}
+.catalogItem{
+	float: left;
+	width: 100%;
+	font-size: 18px;
+	color: #424242;
+	line-height: 30px;
+}
+.catalogText{
+	margin-bottom: 20px;
+}
+.backCatalogBtn{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 10;
+}
+.category{
+	width: 200px;
+	height: 170px;
+	margin-left: -40px;
+	padding-left: 40px;
+	border-left: 30px solid #000000;
+}
+.meishitekan .category{
+	width: 250px;
+}
+.categoryContainer{
+	width: 350px;
+}
+.brandContainer{
+	width: 55%;
+}
+.picContainer{
+	margin-bottom: 40px;
+}
+.shimutekan .category{
+	border-left-color: #8D6E63;
+}
+.shimutekan .category>div{
+	color: #8D6E63;
+	text-align: center;
+}
+.jingpintuijian .category{
+	border-left-color: #BDBDBD;
+}
+.jingpintuijian .category>div{
+	color: #BDBDBD;
+	text-align: center;
+}
+.meishitekan .category{
+	border-left-color: #F57C00;
+}
+.meishitekan .category>div{
+	color: #F57C00;
+	text-align: center;
+}
+.categoryText{
+	font-size: 60px;
+	line-height: 70px;
+}
+.contact{
+	border: 1px solid #000000;
+	padding: 10px 20px;
+	margin-top:40px;
+	margin-right: 30px;
+}
+.contact .contactCol1{
+	text-align: right;
+	padding-right: 20px;
+	vertical-align: top;
+}
+.contact .contactCol2{
+	width: 200px;
+}
+.containerTop{	
+    margin-bottom: 40px;
+    float: left;
+    width: 100%;
+}
+.shimutekan .contact{
+	border-color: #8D6E63;
+	color: #8D6E63;
+}
+.meishitekan .contact{
+	border-color: #F57C00;
+	color: #F57C00;
+}
+.brandInfo{
+	color: #666666;
+}
+.brandTitle{
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 16px;
+}
+.brandHeader{
+	font-weight: bold;
+	color: #000000;
+	margin: 20px 0 0 0;
+}
+.brandPic{
+	width: 100%;
+	margin: 0 0 10px 0;
+}
+.shimutekan .brandTitle{
+	color: #8D6E63;
+}
+.meishitekan .brandTitle{
+	color: #F57C00;
+}
+.xingye .brandLogo>img{
+	width: 250px;
+}
+.huifeng .brandLogo>img{
+	width: 150px;
+}
+.huarijiaju .brandLogo>img{
+	width: 400px;
+}
+.liangmu .brandLogo>img{
+	width: 200px;
+}
+.nanyanghushi .brandLogo>img{
+	width: 200px;
+}
+.beimeizhijia .brandLogo>img{
+	width: 200px;
+}
+.yonghe .brandLogo>img{
+	width: 200px;
+}
+.dusha .brandLogo>img{
+	width: 400px;
+}
+.nanyanghushi-ailun .brandLogo>img{
+	width: 200px;
+}
+.xingye-youmei .brandLogo>img{
+	width: 200px;
+}
+.renhaomodika .brandLogo>img{
+	width: 150px;
+}
+
+.picContainer.absolute{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.picContainer.absolute>div{
+	position: relative;
+}
+.categoryContainer.absolute{
+	z-index: 10;
+	position: absolute;
+}
