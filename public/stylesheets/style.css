@@ -43,6 +43,83 @@ a:focus, a:hover{
 	padding-bottom: 8px;
 	margin-bottom: 14px;
 }
+
+.jiedumeishi .textHeader,
+.xinkandian .textHeader{
+	color: #795548;
+}
+.jiedumeishi .kandianSection,
+.xinkandian .kandianSection{
+	border-bottom: 1px solid #ddd;
+  	padding: 16px 0px;
+}
+.jiedumeishi .picText,
+.xinkandian .picText{
+	font-size: 12px;
+}
+.kandianText{
+	line-height: 22px;
+}
+.textHeader .shortDesc{
+	font-size: 12px;
+	line-height: 24px;
+	margin-top: 25px; 
+}
+.parts .partTitle{
+	margin-top: 40px;
+	border-bottom: 1px solid #795548;
+	color: #795548;
+	font-size: 20px;
+}
+.parts .partText{
+	font-size: 12px;
+	line-height: 20px;
+}
+.parts .blockTitle{
+	margin: 16px 0;
+	color: #795548;
+	font-weight: bold;
+}
+.parts .blockText{
+	font-size: 12px;
+	line-height: 20px;
+	margin-bottom: 40px;
+}
+
+.parts .subBlockTitle{
+	border-bottom: 1px solid #795548;
+	color: #795548;
+	font-size: 12px;	
+	font-weight: bold;
+	margin: 20px 0 10px;
+}
+
+.parts .subBlockText{
+	font-size: 12px;	
+}
+
+.parts .partBadge{
+	background-color: #795548;
+	display: inline-block;
+	color: #fff;
+	padding: 1px 10px;
+	text-align: center;
+	border-radius: 10px;
+}
+.parts .partBadgeText{
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 6px;
+}
+.parts .keywords{
+	font-size: 10px;
+	margin-top: 10px;
+}
+
+.parts .qushiItem{
+	margin-bottom: 15px;
+}
+
 .shimutekan>.catalogListTitle{
 	border-bottom-color: #8D6E63; 
 }
@@ -53,7 +130,7 @@ a:focus, a:hover{
 	border-bottom-color: #F57C00;
 }
 .ruanchuangchuangdian>.catalogListTitle{
-	border-bottom-color: #E91E63;
+	border-bottom-color: #F48FB1;
 }
 .shafa>.catalogListTitle{
 	border-bottom-color: #64B5F6;
@@ -63,6 +140,9 @@ a:focus, a:hover{
 }
 .ertongqingshaonian>.catalogListTitle{
 	border-bottom-color: #8BC34A;
+}
+.shimujiaju>.catalogListTitle{
+	border-bottom-color: #795548;
 }
 .hongmujiaju>.catalogListTitle{
 	border-bottom-color: #8D6E63;
@@ -77,7 +157,7 @@ a:focus, a:hover{
 	border-bottom-color: #01579B;
 }
 .gudianoumei>.catalogListTitle{
-	border-bottom-color: #6D4C41;
+	border-bottom-color: #DD2C00;
 }
 .catalogItem{
 	float: left;
@@ -97,7 +177,7 @@ a:focus, a:hover{
 }
 .category{
 	width: 200px;
-	height: 170px;
+	height: 180px;
 	margin-left: -40px;
 	padding-left: 40px;
 	border-left: 30px solid #000000;
@@ -121,6 +201,27 @@ a:focus, a:hover{
 	color: #8D6E63;
 	text-align: center;
 }
+.qingshaonian .category{
+	border-left-color: #8BC34A;
+}
+.qingshaonian .category>div{
+	color: #8BC34A;
+	text-align: center;
+}
+.banmujiaju .category{
+	border-left-color: #607D8B;
+}
+.banmujiaju .category>div{
+	color: #607D8B;
+	text-align: center;
+}
+.shimujiaju .category{
+	border-left-color: #795548;
+}
+.shimujiaju .category>div{
+	color: #795548;
+	text-align: center;
+}
 .jingpintuijian .category{
 	border-left-color: #BDBDBD;
 }
@@ -135,9 +236,24 @@ a:focus, a:hover{
 	color: #F57C00;
 	text-align: center;
 }
+.ruanchuangchuangdian .category{
+	border-left-color: #F48FB1;
+}
+.ruanchuangchuangdian .category>div{
+	color: #F48FB1;
+	text-align: center;
+}
+.shafa .category{
+	border-left-color: #64B5F6;
+}
+.shafa .category>div{
+	color: #64B5F6;
+	text-align: center;
+}
+
 .categoryText{
-	font-size: 60px;
-	line-height: 70px;
+	font-size: 40px;
+	line-height: 60px;
 }
 .contact{
 	border: 1px solid #000000;
@@ -147,6 +263,7 @@ a:focus, a:hover{
 }
 .contact .contactCol1{
 	text-align: right;
+	width: 105px;
 	padding-right: 20px;
 	vertical-align: top;
 }
@@ -162,9 +279,25 @@ a:focus, a:hover{
 	border-color: #8D6E63;
 	color: #8D6E63;
 }
+.banmujiaju .contact{
+	border-color: #607D8B;
+	color: #607D8B;
+}
+.shimujiaju .contact{
+	border-color: #795548;
+	color: #795548;
+}
 .meishitekan .contact{
 	border-color: #F57C00;
 	color: #F57C00;
+}
+.ruanchuangchuangdian .contact{
+	border-color: #F48FB1;
+	color: #F48FB1;
+}
+.shafa .contact{
+	border-color: #64B5F6;
+	color: #64B5F6;
 }
 .brandInfo{
 	color: #666666;
@@ -219,8 +352,29 @@ a:focus, a:hover{
 .xingye-youmei .brandLogo>img{
 	width: 200px;
 }
+.mpe .brandLogo>img{
+	width: 200px;
+}
 .renhaomodika .brandLogo>img{
 	width: 150px;
+}
+.sikexin .brandLogo>img{
+	width: 200px;
+}
+.anman .brandLogo>img{
+	width: 200px;
+}
+.chengshizhichuang .brandLogo>img{
+	width: 200px;
+}
+.dechi .brandLogo>img{
+	width: 190px;
+}
+.qingshaonian .brandLogo>img{
+	width: 200px;
+}
+.shimujiaju .brandLogo>img{
+	width: 200px;
 }
 
 .picContainer.absolute{
@@ -234,4 +388,27 @@ a:focus, a:hover{
 .categoryContainer.absolute{
 	z-index: 10;
 	position: absolute;
+}
+
+.infoTableDiv>h4{
+	text-align: right;
+	border-bottom: 1px solid #000;
+	padding-bottom: 4px;
+}
+.infoTableDiv>table{
+	float: right;
+}
+.infoTableDiv>table .infoCol1{
+	text-align: right;
+	min-width: 100px;
+	padding-right: 10px;
+	vertical-align: top;
+}
+.factoryInfo,
+.productInfo,
+.shopInfo,
+.hotlineInof,
+.cityInfo,
+.bizInfo{
+	font-size: 13px;
 }
