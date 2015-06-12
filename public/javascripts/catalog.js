@@ -46,17 +46,14 @@
 		$(selector.catalogLeft).append(
 			createCatalogList('实木家具', 'shimujiaju')
 			.append(createCatalogItem('澳美森', 'shimujiaju/aomeisen.html'))
-			.append(createCatalogItem('莫霞'))
-			.append(createCatalogItem('榜样尚品'))
+			.append(createCatalogItem('莫霞', 'shimujiaju/moxia.html'))
+			.append(createCatalogItem('榜样尚品','shimujiaju/bangyangshangpin.html'))
 		);
 		$(selector.catalogLeft).append(
 			createCatalogList('新美式', 'xinmeishi')
-			.append(createCatalogItem('赖氏'))
-			.append(createCatalogItem('优胜美地'))
+			.append(createCatalogItem('赖氏家具', 'xinmeishi/laishi.html'))
+			.append(createCatalogItem('优胜美地', 'xinmeishi/youshengmeidi.html'))
 		);
-		
-
-
 
 		$(selector.catalogRight).append(
 			createCatalogList('精品推荐', 'jingpintuijian')
@@ -91,14 +88,14 @@
 		);
 		$(selector.catalogRight).append(
 			createCatalogList('红木家具', 'hongmujiaju')
-			.append(createCatalogItem('美廷'))
+			.append(createCatalogItem('美廷' , 'hongmujiaju/meiting.html'))
 		);
 		$(selector.catalogRight).append(
 			createCatalogList('古典欧美', 'gudianoumei')
-			.append(createCatalogItem('英格兰'))
-			.append(createCatalogItem('长实'))
-			.append(createCatalogItem('爱丽舍宫'))
-			.append(createCatalogItem('英伦华庄'))
+			.append(createCatalogItem('英格利', 'gudianoumei/yinggeli.html'))
+			.append(createCatalogItem('长实家具', 'gudianoumei/changshi.html'))
+			.append(createCatalogItem('爱丽舍宫', 'gudianoumei/ailishegong.html'))
+			.append(createCatalogItem('英伦华庄', 'gudianoumei/yinglunhuazhuang.html'))
 		);
 		// $(selector.catalogRight).append(
 		// 	createCatalogList('黄页信息', 'huangyexinxi')

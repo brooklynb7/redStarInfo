@@ -150,9 +150,6 @@ a:focus, a:hover{
 .huangyexinxi>.catalogListTitle{
 	border-bottom-color: #FFF176;
 }
-.shimujiaju>.catalogListTitle{
-	border-bottom-color: #795548;
-}
 .xinmeishi>.catalogListTitle{
 	border-bottom-color: #01579B;
 }
@@ -179,7 +176,7 @@ a:focus, a:hover{
 	width: 200px;
 	height: 180px;
 	margin-left: -40px;
-	padding-left: 40px;
+	padding-left: 20px;
 	border-left: 30px solid #000000;
 }
 .meishitekan .category{
@@ -220,6 +217,27 @@ a:focus, a:hover{
 }
 .shimujiaju .category>div{
 	color: #795548;
+	text-align: center;
+}
+.xinmeishi .category{
+	border-left-color: #01579B;
+}
+.xinmeishi .category>div{
+	color: #01579B;
+	text-align: center;
+}
+.hongmujiaju .category{
+	border-left-color: #8D6E63;
+}
+.hongmujiaju .category>div{
+	color: #8D6E63;
+	text-align: center;
+}
+.gudianoumei .category{
+	border-left-color: #DD2C00;
+}
+.gudianoumei .category>div{
+	color: #DD2C00;
 	text-align: center;
 }
 .jingpintuijian .category{
@@ -279,6 +297,18 @@ a:focus, a:hover{
 	border-color: #8D6E63;
 	color: #8D6E63;
 }
+.gudianoumei .contact{
+	border-color: #DD2C00;
+	color: #DD2C00;
+}
+.xinmeishi .contact{
+	border-color: #01579B;
+	color: #01579B;
+}
+.hongmujiaju .contact{
+	border-color: #8D6E63;
+	color: #8D6E63;
+}
 .banmujiaju .contact{
 	border-color: #607D8B;
 	color: #607D8B;
@@ -286,6 +316,10 @@ a:focus, a:hover{
 .shimujiaju .contact{
 	border-color: #795548;
 	color: #795548;
+}
+.shimujiaju .contact{
+	border-color: #01579B;
+	color: #01579B
 }
 .meishitekan .contact{
 	border-color: #F57C00;
@@ -376,6 +410,15 @@ a:focus, a:hover{
 .shimujiaju .brandLogo>img{
 	width: 200px;
 }
+.xinmeishi .brandLogo>img{
+	width: 200px;
+}
+.hongmujiaju .brandLogo>img{
+	width: 200px;
+}
+.gudianoumei .brandLogo>img{
+	width: 200px;
+}
 
 .picContainer.absolute{
 	position: absolute;
@@ -400,7 +443,7 @@ a:focus, a:hover{
 }
 .infoTableDiv>table .infoCol1{
 	text-align: right;
-	min-width: 100px;
+	min-width: 115px;
 	padding-right: 10px;
 	vertical-align: top;
 }
