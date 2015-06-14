@@ -419,6 +419,12 @@ a:focus, a:hover{
 .gudianoumei .brandLogo>img{
 	width: 200px;
 }
+.shuda .brandLogo>img{
+	width: 150px;
+}
+.bosen .brandLogo>img{
+	width: 200px;
+}
 
 .picContainer.absolute{
 	position: absolute;
