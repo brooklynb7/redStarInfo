@@ -60,7 +60,7 @@
 		'col2': '北京市通州区台湖镇北火垈工业区'
 	}, {
 		'col1': '网址',
-		'col2': '<a href="http://www.deecci.com" target="_blank">www.deecci.com</a>'
+		'col2': '<a href="http://www.decci.cn" target="_blank">www.decci.cn</a>'
 	}, {
 		'col1': '展位标注',
 		'col2': '东莞名家具展9号馆D06、D07展位'

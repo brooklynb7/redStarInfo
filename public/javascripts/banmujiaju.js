@@ -99,7 +99,7 @@
 				col2: '广东省东莞市厚街镇宝塘第一工业区'
 			},{
 				col1: '网址',
-				col2: '<a href="http://www.city-w.com.cn target="_blank">www.city-w.com.cn</a>'
+				col2: '<a href="http://www.city-w.com.cn" target="_blank">www.city-w.com.cn</a>'
 			},{
 				col1: '全国免费热线',
 				col2: '400 033 8661'

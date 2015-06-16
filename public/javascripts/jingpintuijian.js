@@ -35,7 +35,11 @@
 		bosen: '.jingpintuijian.bosen',
 		bosenFactoryInfo: '.jingpintuijian.bosen .factoryInfo',
 		bosenProductInfo: '.jingpintuijian.bosen .productInfo',
-		bosenShopInfo: '.jingpintuijian.bosen .shopInfo'
+		bosenShopInfo: '.jingpintuijian.bosen .shopInfo',
+		bosenCityInfo: '.jingpintuijian.bosen .cityInfo',
+		bosenBizInfo: '.jingpintuijian.bosen .bizInfo',
+
+		dibiao: '.jingpintuijian.dibiao'
 	};
 
 	var shudaData = {
@@ -433,11 +437,25 @@
 				col1: '标准店投入费用',
 				col2: '60-80万'
 			}]
+		},
+		city: {
+			title: '已开店城市',
+			table: [{
+				col1: '',
+				col2: '北京、上海、广州、绍兴、贵阳、成都、温州、苏州、大连、西安、兰州、常州、台州、衢州、郑州、重庆、太原、石家庄、张家港……'
+			}]
+		},
+		biz: {
+			title: '重点招商城市',
+			table: [{
+				col1: '',
+				col2: '沈阳、天津、济南、南京、南宁、武汉、福州、哈尔滨……'
+			}]
 		}
 	};
 
 	var shudaContact = [{
-		'col1': '项目总监：',
+		'col1': '<span class="contactHeader">项目总监：</span>',
 		'col2': ''
 	}, {
 		'col1': '青少年系列：',
@@ -446,7 +464,7 @@
 		'col1': '舒达.家系列：',
 		'col2': '唐建华 13602553190'
 	}, {
-		'col1': '开拓总监：',
+		'col1': '<span class="contactHeader">开拓总监：</span>',
 		'col2': ''
 	}, {
 		'col1': '中国北区：',
@@ -455,7 +473,7 @@
 		'col1': '中国南区：',
 		'col2': '张海平 18688926625'
 	}, {
-		'col1': '运营总监：',
+		'col1': '<span class="contactHeader">运营总监：</span>',
 		'col2': ''
 	}, {
 		'col1': '中国北区：',
@@ -503,7 +521,27 @@
 	}, {
 		'col1': '网址：',
 		'col2': '<a href="http://www.besonfur.com" target="_blank">www.besonfur.com</a>'
-	}];
+	}, {
+		'col1':'展位标注：',
+		'col2': '深圳30届国际家具展'
+	}, {
+		'col1':'',
+		'col2': '1号馆1A28/1B27'
+	},];
+
+	var dibiaoContact = [{
+		col1: '公司名称：',
+		col2: '帝标家具制造有限公司'
+	},{
+		col1: '地址：',
+		col2: '中国成都家具产业园帝标路'
+	},{
+		col1: '招商热线：',
+		col2: '028-83000000'
+	},{
+		col1: '网址：',
+		col2: '<a href="http://www.chinatebo.cn" target="_blank">www.chinatebo.cn</a>'
+	}, ];
 
 	$(document).ready(function() {
 		createJingpintuijian();
@@ -544,6 +582,12 @@
 			$(selector.bosenFactoryInfo).append(createInfoTable(bosenData.factory));
 			$(selector.bosenProductInfo).append(createInfoTable(bosenData.product));
 			$(selector.bosenShopInfo).append(createInfoTable(bosenData.shop));
+			$(selector.bosenCityInfo).append(createInfoTable(bosenData.city));
+			$(selector.bosenBizInfo).append(createInfoTable(bosenData.biz));
+		}
+
+		if ($(selector.dibiao).length !== 0) {
+			$(selector.dibiao).find('div.contact').append(creatContactTable(dibiaoContact));
 		}
 	});
 
@@ -553,7 +597,6 @@
 			.append($('<div class="categoryText">推荐</div>'))
 			.append($('<div>Recommended</div>'));
 	}
-
 
 	function creatContactTable(contacts) {
 		var $table = $('<table />');

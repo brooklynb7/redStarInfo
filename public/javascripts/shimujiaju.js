@@ -222,7 +222,7 @@
 		$(selector.category)
 			.append($('<div class="categoryText">实木</div>'))
 			.append($('<div class="categoryText">家具</div>'))
-			.append($('<div>Children and Adolescents</div>'));
+			.append($('<div>Solid wood furniture</div>'));
 	}
 
 	function creatContactTable(contacts) {

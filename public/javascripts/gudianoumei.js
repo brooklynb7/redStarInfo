@@ -356,7 +356,7 @@
 		'col2': '东莞市厚街镇新塘工业区'
 	}, {
 		'col1': '网址',
-		'col2': '<a href="http://www.chang-shi.com" target="_blank">www.chang-shi.com</a>'
+		'col2': '<a href="http://www.chang-shi.cn" target="_blank">www.chang-shi.cn</a>'
 	}, {
 		'col1': '展位标注',
 		'col2': '2015年3月东莞家具展'
@@ -393,7 +393,7 @@
 		'col2': '东莞市常平镇港建大道8号'
 	}, {
 		'col1': '网址',
-		'col2': '<a href="http://www.whtjt.com" target="_blank">www.whtjt.com</a>'
+		'col2': '<a href="http://www.whtjt.cn" target="_blank">www.whtjt.cn</a>'
 	}, {
 		'col1': '展位标注',
 		'col2': '东莞市厚街镇恒锋家具博览中心二楼'
