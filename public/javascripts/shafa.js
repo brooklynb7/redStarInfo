@@ -40,7 +40,7 @@
 		'col2': '佛山市龙江镇官田福中路7号'
 	}, {
 		'col1': '网址',
-		'col2': '<a href="http://www.anman.com" target="_blank">www.anman.com</a>'
+		'col2': '<a href="http://www.anman.cn" target="_blank">www.anman.cn</a>'
 	}, {
 		'col1': '邮箱',
 		'col2': '<a href="mailto:am@anman.cn">am@anman.cn</a>'
