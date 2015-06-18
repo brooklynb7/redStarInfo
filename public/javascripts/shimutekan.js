@@ -97,6 +97,7 @@
 	}];
 
 	$(document).ready(function() {
+		$('.fancybox').fancybox();
 		createShimutekan();
 		$(selector.huifeng).find('div.contact').append(creatContactTable(huifengContact));
 		$(selector.xingye).find('div.contact').append(creatContactTable(xingyeContact));

@@ -190,6 +190,7 @@ a:focus, a:hover{
 }
 .picContainer{
 	margin-bottom: 40px;
+	text-align: center;
 }
 .shimutekan .category{
 	border-left-color: #8D6E63;
@@ -347,8 +348,8 @@ a:focus, a:hover{
 	margin: 20px 0 0 0;
 }
 .brandPic{
-	width: 100%;
-	margin: 0 0 10px 0;
+	width: 50%;
+	margin: 0 0 5px 0;
 }
 .shimutekan .brandTitle{
 	color: #8D6E63;
