@@ -96,10 +96,7 @@
 		'col2': '<a href="http://www.chinanyhs.com" target="_blank">www.chinanyhs.com</a>'
 	}];
 
-	$(document).ready(function() {
-		if($.fancybox){
-			$('.fancybox').fancybox();
-		}
+	$(document).ready(function() {		
 		createShimutekan();
 		$(selector.huifeng).find('div.contact').append(creatContactTable(huifengContact));
 		$(selector.xingye).find('div.contact').append(creatContactTable(xingyeContact));

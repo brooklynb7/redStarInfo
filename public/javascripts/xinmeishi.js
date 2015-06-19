@@ -194,7 +194,7 @@
 		'col2': '（2015年3月深圳展1B12展位）'
 	}];
 
-	$(document).ready(function() {
+	$(document).ready(function() {		
 		createXinmeishi();
 
 		if ($(selector.laishi).length !== 0) {

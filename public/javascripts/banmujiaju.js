@@ -111,7 +111,7 @@
 	};
 
 
-	$(document).ready(function() {
+	$(document).ready(function() {		
 		createBanmu();
 		if ($(selector.chengshi).length !== 0) {
 			$(selector.chengshiFactoryInfo).append(createInfoTable(chengshiData.factory));

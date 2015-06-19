@@ -84,7 +84,7 @@
 		'col2': '<a href="http://www.modika.net.cn" target="_blank">www.modika.net.cn</a>'
 	}];
 
-	$(document).ready(function() {
+	$(document).ready(function() {	
 		createMeishitekan();
 		$(selector.beimeizhijia).find('div.contact').append(creatContactTable(beimeizhijiaContact));
 		$(selector.yonghe).find('div.contact').append(creatContactTable(yongheContact));

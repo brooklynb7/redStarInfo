@@ -297,7 +297,7 @@
 	};
 
 
-	$(document).ready(function() {
+	$(document).ready(function() {		
 		createShafa();
 		if ($(selector.dechi).length !== 0) {
 			$(selector.dechi).find('div.contact').append(creatContactTable(dechiContact));

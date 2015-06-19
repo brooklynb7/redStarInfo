@@ -200,7 +200,7 @@
 		'col2': '<a href="http://www.chinamoxia.com" target="_blank">www.chinamoxia.com</a>'
 	}];
 
-	$(document).ready(function() {
+	$(document).ready(function() {		
 		createShimujiaju();
 
 		if ($(selector.aomeisen).length !== 0) {

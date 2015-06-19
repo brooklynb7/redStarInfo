@@ -88,7 +88,7 @@
 		'col2': '<a href="http://www.szmtmj.com" target="_blank">www.szmtmj.com</a>'
 	}];
 
-	$(document).ready(function() {
+	$(document).ready(function() {		
 		createHongmujiaju();
 
 		if ($(selector.meiting).length !== 0) {
