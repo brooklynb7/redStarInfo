@@ -1,0 +1,54 @@
+@media (min-width: 768px){
+	.container {
+	    width: auto;
+	}
+}
+.backCatalogBtn{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 10;
+	font-size: 36px;
+}
+.color-cyan-bg {
+    background-color: #00bcd4;
+}
+.color-cyan{
+	color: #00bcd4;
+}
+.color-green-bg{
+	background-color: #1B5E20;
+}
+.color-green{
+	color: #1B5E20;
+}
+.sectionTitle{
+	padding: 20px;
+	font-size: 32px;
+	color: yellow;
+}
+.rightContainer{
+	padding: 10px 20px;
+	font-size: 24px;
+	color: #ffffff;
+}
+.rightContainer a,
+.rightContainer a:hover,
+.rightContainer a:focus{
+	color: #ffffff;
+}
+.catalogTitle{
+	font-size: 70px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.catalogList a{
+	font-size: 32px;
+	color: #00897B;
+	margin: 30px 20px;
+	display: block;
+}
+.img{
+	width: 100%;
+    margin-top: 80px;
+}
