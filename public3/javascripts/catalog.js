@@ -33,7 +33,7 @@
 		);
 		$(selector.catalogLeft).append(
 			createCatalogList('沙发', 'shafa')
-			.append(createCatalogItem('斯可馨', '12.html'))
+			.append(createCatalogItem('斯可馨', '12.html?v=1'))
 		);
 		$(selector.catalogLeft).append(
 			createCatalogList('板木家具', 'banmujiaju')
