@@ -29,4 +29,5 @@ node_modules
 public/images/origin
 public/lib
 public2/lib
+public3/lib
 **/.DS_Store

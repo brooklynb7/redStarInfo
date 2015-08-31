@@ -1,0 +1,98 @@
+.backCatalogBtn{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 10;
+	font-size: 36px;
+}
+.img{
+	width: 100%;
+    margin-top: 80px;
+}
+.catalogItem{
+	float: left;
+	width: 100%;
+	font-size: 18px;
+	color: #424242;
+	line-height: 30px;
+}
+.catalogText{
+	margin-bottom: 20px;
+}
+.container {
+	margin: 40px !important;
+	padding: 0 !important;
+	width: auto !important;
+}
+
+a:focus, a:hover{
+	color: #2196F3;
+}
+
+.catalogTitle{
+	float: left;
+	width: 100%;
+	margin-bottom: 100px;
+}
+.catalogTitlePic,
+.catalogTitleText{
+	width: 40%;
+	float: left;
+}
+.catalogTitleText{
+	float: right;
+	text-align: right;
+	margin-top: 0;
+}
+.catalogSection>div{
+	float: left;
+	width: 50%;
+}
+.catalogList{
+	margin-bottom: 60px;
+	float: left;
+  	width: 90%;
+}
+.catalogListTitle{
+	width: 100%;
+	font-size: 28px;
+	border-bottom: 14px solid #000000;
+	padding-bottom: 8px;
+	margin-bottom: 14px;
+}
+.shimutekan>.catalogListTitle{
+	border-bottom-color: #8D6E63; 
+}
+.jingpintuijian>.catalogListTitle{
+	border-bottom-color: #BDBDBD;
+}
+.meishitekan>.catalogListTitle{
+	border-bottom-color: #F57C00;
+}
+.ruanchuangchuangdian>.catalogListTitle{
+	border-bottom-color: #F48FB1;
+}
+.shafa>.catalogListTitle{
+	border-bottom-color: #64B5F6;
+}
+.banmujiaju>.catalogListTitle{
+	border-bottom-color: #607D8B;
+}
+.ertongqingshaonian>.catalogListTitle{
+	border-bottom-color: #8BC34A;
+}
+.shimujiaju>.catalogListTitle{
+	border-bottom-color: #795548;
+}
+.fenmian>.catalogListTitle{
+	border-bottom-color: #8D6E63;
+}
+.huangyexinxi>.catalogListTitle{
+	border-bottom-color: #FFF176;
+}
+.guanggao>.catalogListTitle{
+	border-bottom-color: #01579B;
+}
+.gudianoumei>.catalogListTitle{
+	border-bottom-color: #795548;
+}
