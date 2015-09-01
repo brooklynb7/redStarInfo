@@ -26,9 +26,11 @@ build/Release
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
 
+function/images
 public/images
 public2/images
 public3/images
+function/lib
 public/lib
 public2/lib
 public3/lib
